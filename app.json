@@ -14,7 +14,7 @@
         },
         "SUDO": {
             "description": "Kullanıcılara tüm yetkileri verir. It gives all the privileges to the users. => 90xxx,0,90xxx,0,90xxx...",
-            "required": false
+            "required": true
         },
         "LANGUAGE": {
             "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
@@ -23,13 +23,13 @@
         },
         "PROXY": {
             "description": "Proxy Adresi. Proxy Address => http://some-host:1234",
-            "required": false,
-            "value": "false"
+            "required": true,
+            "value": "true"
         },
         "ANTI_LINK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "AUTO_BIO": {
             "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
@@ -67,27 +67,27 @@
         },
         "MUTE_MESSAGE": {
             "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
-            "required": false,
-            "value": "false"
+            "required": true,
+            "value": "true"
         },
         "UNMUTE_MESSAGE": {
             "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
             "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
             "description": "Düzenlenebilir Unblock Mesajı. Customizable Unblock Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "WORK_TYPE": {
@@ -116,37 +116,37 @@
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "GAN_IMAGE": {
@@ -157,7 +157,7 @@
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
-            "value": "true"
+            "value": "false"
         }
     },
     "addons": [{
